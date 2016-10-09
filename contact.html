@@ -1,0 +1,47 @@
+<html>
+	<head>
+		<link rel="shortcut icon" href="images/favicon.ico">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<script src="test.js"></script>
+		<title>Contact us - G&S Records</title>
+	</head>
+
+	<body>
+		<img id="logo" src="images/logo3.png" />
+	<ul id="nav">
+		<li><a href="index.html">Home</a></li>
+		<li><a href="artists.html">Artists</a></li>
+		<li><a href="playlist.html">Playlists</a></li>
+		<li><a href="aboutus.html">About us</a></li>
+		<li><a class="active" href="contact.html">Contact us</a></li> 
+	</ul>
+
+	<br>
+	<p id="contactParagraph"> Fans and artists may contact us here. </p>
+	<br>
+	<br>
+			<form name="contact_form" method="post" action="contact.php">
+				<!--Full Name:--> <input name="name" id="name" onFocus="clearContents(this);" placeholder="Full Name:" class="inpName" type="text" value="Full Name:" required> <br>
+				<!--Email:--> <input name="email" id="email" onFocus="clearContents(this);" placeholder="Email:" class="inpEmail" type="text" value="Email:"> <br>
+				<!--Purpose:--> <input name="purpose" id="purpose" onFocus="clearContents(this);" placeholder="Purpose": class ="inpPurp" type="text" value="Purpose:"> <br>
+				<!--Your Message:--> <textarea name="message" id="message" onFocus="clearContents(this);" placeholder="Your message here:" rows="8" cols="50"> Enter your message here. </textarea>
+				</br>
+				<input value="Send email" type="submit" >
+			</form>
+			<h2> Contact Policy </h2> <br>
+				<p class="cp"> Fans, contact us with suggestions for anything such as our website, events, and artists. We will be glad to listen.
+					Artists, send us your music through any means such as YouTube, Facebook, Bandcamp; we will gladly hear you out.
+					We will contact you by email if we so choose. </p>
+			<h2> Mailing Address </h2>
+				<p class="cp"> G & S Records<br>
+					1900 Commerce ST.<br>
+					Tacoma, WA 98402 </p>
+	<br><br><br><br><br><br><br><br><br><br><br>
+	
+	
+	<center><img id="socialmedia" src="images/socialmedia.png" width="190" height="45"></center>
+	<br><br><br>
+	<footer>&#169 2016 G&S Records. All rights reserved.</footer>
+	
+	</body>
+</html>

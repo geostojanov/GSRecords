@@ -1,0 +1,198 @@
+html {
+	background: url(../images/rainbow_texture679.jpg) no-repeat center center fixed;
+	
+}
+
+body {
+	background-color: #260010;
+	width: 970px;
+	margin: auto;
+	border-left-style: solid;
+	border-left-color: white;
+	border-left-width: 3px;
+	border-right-style: solid;
+	border-right-color: white;
+	border-right-width: 3px;
+	border-bottom-style: solid;
+	border-bottom-width: 3px;
+	border-bottom-color: white;
+}
+
+h1, h2, h3{
+	font-family: Levenim MT;
+	margin-top: 40px;
+	color: white;
+	text-align: center;
+}
+
+a {
+	color: white;
+}
+
+td {
+	margin-left: 10px;
+}
+
+#commentStyle {
+	margin-left: 20px;
+	color: white;
+	font-size: 16px;
+	font-family: Levenim MT;
+}
+
+#commentTable {
+	margin-left: 70px;
+}
+
+form {
+	color: white;
+	margin-left: 50px;
+	font-size: 16px;
+	font-family: Levenim MT;
+}
+
+#id1 {
+	margin-top: 40px;
+	margin-right: 40px;
+	color: white;
+	text-align: right;
+	font-family: Levenim MT;
+	font-style: italic;
+	font-size: 22px;
+}
+
+#playListHeading {
+	font-family: Levenim MT;
+	font-size: 30px;
+}
+
+#specialHeading {
+	font-size: 27px;
+}
+
+#ID2 {
+	font-family: Levenim MT;
+	text-align: center;
+	color: white;
+}
+
+#secondTable {
+	margin-top: 20px;
+	margin-right:20px;
+}
+
+#aboutusTable {
+	margin-left: 60px;
+	margin-right: 60px;
+}
+
+#aboutusText {
+	
+	color: white;
+	font-family: Levenim MT;
+	text-align: justify;
+}
+
+#aboutusTitleParagraph {
+	margin-left: 50px;
+	font-style: italic;
+	text-align: left;
+	font-family: Bell MT;
+	font-size: 32px;
+}
+
+#aboutusfoot {
+	margin-bottom: 20px;
+}
+
+#playlistDesc {
+	text-align: center;
+}
+
+#socialmedia {
+	float: right;
+}
+
+#contactParagraph {
+	text-align: center;
+	font-size: 21px;
+}
+
+/*???*/
+p {
+	/*margin-top: 40px;*/
+	margin-left: 40px;
+	margin-right: 40px;
+	color: white;
+	text-align: left;
+	font-family: Levenim MT;
+}
+
+#nav {
+	/*background-color: #3c3c3c;*/
+	/*overflow: hidden;*/
+	width:790px;
+	margin:0 auto;
+	list-style-type: none;
+}
+#nav li {
+	display: inline;
+	float:left;
+}
+#nav a {
+	/*background-color: #3c3c3c;*/
+	font-family: Rockwell;
+	font-size: 18px;
+	color: white;
+	display:block;
+	text-align:center;
+	width:150px; /* fixed width */
+	text-decoration:none; 
+}
+
+li a:hover:not(.active) {
+    background-color: #A4A4A4;
+}
+
+.active {
+    background-color: #A00942;
+}
+
+#logo {
+	margin-left: 10px;
+	margin-bottom: 20px;
+}
+
+footer {
+	color: white;
+	background-color: black;
+	font-size: 15px;
+	text-align: center;
+}
+input {
+	margin-bottom: 10px;
+}
+p.cp{
+	text-align: center;
+}
+footer{
+	text-align: bottom;
+}
+#event{
+	margin-top: 200px;
+	font-family: Levenim MT;
+	padding-left: 30px;
+	color: white;*/
+}
+#eventMid {
+	font-family: Levenim MT;
+	text-align: left;
+	padding-left: 200px;
+	color: white;
+}
+#eventRight {
+	font-family: Levenim MT;
+	text-align: right;
+	color: white;
+	margin-left: 50px;
+}
